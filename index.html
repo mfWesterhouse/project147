@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dream Room</title>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    </head>
+
+    <body>
+        <a-scene background="color: #D5CCFF">
+
+            <a-entity position="0 0 25">
+                <a-camera></a-camera>
+            </a-entity>
+
+            <a-entity>
+                <a-plane position="0 0 0" width="30" height="30"
+                    src="wallpaper.jpg"></a-plane>
+            </a-entity>
+
+            <a-entity>
+                <a-plane position="0 -10 10" width="30" height="20" rotation="-90 0 0"
+                    src="floor.jpg"></a-plane>
+            </a-entity>
+
+            <a-entity>
+                <a-plane position="0 3 0.5" width="13" height="10"
+                    src="sunset.jpg"></a-plane>
+            </a-entity>
+
+            <a-entity>
+                <a-box position="0 -7 5" width="29" height="5"
+                    src="gray_wood.jpg"></a-box>
+            </a-entity>
+            
+            <a-entity>
+                <a-box position="0 -3.5 5" width="30" height="2" 
+                    src="fabric.jpg"></a-box>
+            </a-entity>
+    
+        </a-scene>
+    </body>
+</html>
